@@ -169,7 +169,7 @@ header{
 .hob{
     height:450px;
 }
-@media only screen and (max-aspect-ratio: 9/15){
+@media screen and (max-aspect-ratio: 9/15){
     .cover{
         width:100vw;
     }
@@ -249,7 +249,7 @@ header{
     
 }
 
-@media only screen and (max-aspect-ratio: 9/15) and (max-height: 576px){
+@media screen and (max-aspect-ratio: 9/15) and (max-height: 576px){
     .font{
         font-size: 0.9em;
     }
@@ -278,7 +278,7 @@ header{
     }
 }
 
-@media only screen and (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1){
+@media screen and (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1){
     .cover{
         width:75vw;
     }
@@ -344,7 +344,7 @@ header{
         font-size:25px;
     }
 }
-@media only screen and (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (min-height: 1100px){
+@media screen and (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (min-height: 1100px){
     .font{
         font-size:2.5em;
     }
@@ -378,7 +378,7 @@ header{
         font-size:40px;
     }
 }
-@media only screen and (min-width: 1200px) and (min-height:800px){
+@media screen and (min-width: 1200px) and (min-height:800px){
     .font{
         font-size:1.6em;
     }
@@ -389,7 +389,7 @@ header{
         width:90%;
     }
 }
-@media only screen and (min-width: 1400px) and (min-height:800px){
+@media screen and (min-width: 1400px) and (min-height:800px){
     .font{
         font-size:2em;
     }
