@@ -9,7 +9,7 @@
 }
 
 @keyframes fadein {
-    from { opacity: 0.2.2; }
+    from { opacity: 0.2; }
     to   { opacity: 1; }
 }
 

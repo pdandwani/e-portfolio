@@ -1,10 +1,4 @@
-.page{
-    -webkit-transition: all 2s ease;  
-    -moz-transition: all 2s ease;  
-    -o-transition: all 2s ease;  
-    -ms-transition: all 2s ease;  
-    transition: all 2s ease;
-}
+
 .nxtbtn{
     right:0;
     z-index:500;
@@ -177,10 +171,10 @@ header{
         width:100vw;
     }
     .font{
-        font-size: 0.5em;
+        font-size: 1.1em;
     }
     .edu1{
-        font-size: 0.2em;
+        font-size: 0.8em;
     }
     .w-40{
         width:35%;
@@ -251,10 +245,10 @@ header{
 
 @media (max-aspect-ratio: 9/15) and (max-height: 576px){
     .font{
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
     .edu1{
-        font-size: 0.2em;
+        font-size: 0.6em;
     }
     .f{
         font-size: 1.2em;
@@ -262,6 +256,9 @@ header{
     .f1{
         font-size: 1.8em;
   
+    }.ls{
+        line-height:normal;
+        font-size:1.1em;
     }
     .title{
         width:70%;
