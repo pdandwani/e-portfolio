@@ -446,10 +446,13 @@ header{
     }
      #coding div img{
         width:30%;
+         height:100px;
+         
          
     }
     #frontend div img{
         width:30%;
+        height:100px;
     }
     
 }
