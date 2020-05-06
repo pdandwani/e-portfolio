@@ -427,10 +427,10 @@ header{
 }
 @media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 480px){
     .title{
-        font-size: 1.9em;
+        font-size: 1.8em;
     }
     .title-name{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     .f{
         font-size: 1.5em;
@@ -439,19 +439,17 @@ header{
         font-size: 1.7em;
     }
     .ls{
-        font-size:0.8em;
+        font-size:0.6em;
     }
     .menu ul{
-        font-size:0.1em;
+        font-size:1em;
     }
-     #coding img{
-        width:auto;
-        height:auto;
+     #coding div img{
+        width:30%;
          
     }
     #frontend div img{
-        width:auto;
-        height:auto;
+        width:30%;
     }
     
 }
