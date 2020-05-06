@@ -425,6 +425,18 @@ header{
         font-size: 1.8em;
     }
 }
+@media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 550px){
+     #coding div img{
+        width:30%;
+         height:70px;
+         
+         
+    }
+    #frontend div img{
+        width:30%;
+        height:70px;
+    }
+}
 @media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 480px){
     .title{
         font-size: 1.8em;
