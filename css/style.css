@@ -419,27 +419,36 @@ header{
         height:300px;
     }
     .f{
-        font-size: 2em;
+        font-size: 1.6em;
     }
     .f1{
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
 }
 @media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 480px){
     .title{
-        font-size: 1.8em;
+        font-size: 1.9em;
     }
     .title-name{
         font-size: 1.7em;
     }
     .f{
-        font-size: 1.9em;
+        font-size: 1.5em;
     }
     .f1{
-        font-size: 2.4em;
+        font-size: 1.7em;
     }
     .ls{
-        font-size:1em;
+        font-size:0.9em;
+    }
+    .menu{
+        font-size:0.1em;
+    }
+     #coding img{
+        width:auto;
+    }
+    #frontend div img{
+        width:auto;
     }
 }
 @media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (min-height: 1100px){
