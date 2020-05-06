@@ -35,7 +35,7 @@ else {
 function next() {
     //alert(page);
     let pages = document.getElementsByClassName('page');
-
+    var ar=screen.width/screen.height;
     if (ar > 1) {
         page++;
         pages[page - 1].classList.add("d-none");
@@ -75,6 +75,7 @@ function next() {
 function prev() {
     let pages = document.getElementsByClassName('page');
     //alert(page);
+    var ar=screen.width/screen.height;
     if (ar > 1) {
         page = page - 2;
         pages[page + 2].classList.add("d-none");
