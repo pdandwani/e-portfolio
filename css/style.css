@@ -430,7 +430,7 @@ header{
         font-size: 1.9em;
     }
     .title-name{
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
     .f{
         font-size: 1.5em;
@@ -439,17 +439,21 @@ header{
         font-size: 1.7em;
     }
     .ls{
-        font-size:0.9em;
+        font-size:0.8em;
     }
-    .menu{
+    .menu ul{
         font-size:0.1em;
     }
      #coding img{
         width:auto;
+        height:auto;
+         
     }
     #frontend div img{
         width:auto;
+        height:auto;
     }
+    
 }
 @media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (min-height: 1100px){
     .font{
