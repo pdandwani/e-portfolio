@@ -393,6 +393,10 @@ header{
     .edu1{
         font-size: 1.4em;
     }
+    .ls{
+        line-height:normal;
+        font-size:2.6em;
+    }
     .f{
         font-size: 3.2em;
     }
