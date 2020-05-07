@@ -349,10 +349,10 @@ header{
         width:100vw;
     }
     .font{
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
     .edu1{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     .w-40{
         width:35%;
@@ -364,7 +364,7 @@ header{
         width:30%;
     }
     #base{
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     #coding img{
         width:35%;
@@ -402,69 +402,21 @@ header{
         width:70%;
         height:50px;
         margin-top:auto;
-        font-size:1.9em;
+        font-size:2em;
         
     }
     .title-name{
         width:70%;
         height:60px;
         margin-bottom:auto;
-        font-size:1.8em;
+        font-size:2em;
     }
     .ls{
         line-height:normal;
-        font-size:1.1em;
+        font-size:1.3em;
     }
     .hob{
         height:300px;
-    }
-    .f{
-        font-size: 1.6em;
-    }
-    .f1{
-        font-size: 1.8em;
-    }
-}
-@media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 550px){
-     #coding div img{
-        width:30%;
-         height:70px;
-         
-         
-    }
-    #frontend div img{
-        width:30%;
-        height:70px;
-    }
-}
-@media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 480px){
-    .title{
-        font-size: 1.8em;
-    }
-    .title-name{
-        font-size: 1.5em;
-    }
-    .f{
-        font-size: 1.5em;
-    }
-    .f1{
-        font-size: 1.7em;
-    }
-    .ls{
-        font-size:0.6em;
-    }
-    .menu ul{
-        font-size:1em;
-    }
-     #coding div img{
-        width:30%;
-         height:70px;
-         
-         
-    }
-    #frontend div img{
-        width:30%;
-        height:70px;
     }
     
 }
