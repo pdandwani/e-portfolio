@@ -385,8 +385,15 @@ header{
     #base{
         font-size: 1.5em;
     }
-    #coding img{
-        width:35%;
+    #coding div img{
+        width:30%;
+         height:70px;
+         
+         
+    }
+    #frontend div img{
+        width:30%;
+        height:70px;
     }
     #coding{
         margin-top:25%;
