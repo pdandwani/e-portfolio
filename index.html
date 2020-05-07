@@ -34,11 +34,11 @@
     <!-- BUTTONS TO CHANGE PAGE -->
 
     <button onclick="next()" class=" text-white btn btn-outline-none p-2 h-100 position-fixed nxtbtn shadow-none"><i
-            class="fas fa-chevron-circle-right"></i></button>
-    <button onclick="prev()"
-        class="float-right text-white btn btn-outline-none p-2 h-100 position-fixed   shadow-none"><i
-            class="fas fa-chevron-circle-left"></i></button>
-
+            class="fas fa-chevron-circle-right size"></i></button>
+    <button onclick="prev()" class="text-white btn btn-outline-none p-2 h-100 position-fixed shadow-none "><i
+            class="fas fa-chevron-circle-left size"></i></button>
+    <button onclick="home()" class="text-white btn btn-outline-dark position-fixed shadow-none nxtbtn1"><i
+            class="fas fa-home size"></i></button>
     <div class=" w-100 d-flex flex-wrap">
 
         <!-- COVER -->
@@ -50,26 +50,33 @@
 
             <p class="h1 text-center w-100 mb-2 content">Contents</p>
             <ul class="fa-ul">
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>About Author
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a onclick="goto(1);" href="javascript:void(0);"> About Author</a>
                 </li>
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>Qualifications
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a href="javascript:goto(3);">Qualifications</a>
                 </li>
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>Skills
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a onclick="javascript:goto(5);" href="#">Skills</a>
                 </li>
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>Hobbies
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a onclick="goto(7);" href="javascript:void(0);">Hobbies</a>
                 </li>
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>Achievements & Projects
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a onclick="goto(9);" href="javascript:void(0);">Achievements & Projects</a>
                 </li>
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>References
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a onclick="goto(11);" href="javascript:void(0);">References</a>
                 </li>
-                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>Contact
+                <li class="mt-4 mb-4"><span class="fa-li"><i class="far fa-star "></i></span>
+                    <a onclick="goto(13);" href="javascript:void(0);">Contact</a>
                 </li>
             </ul>
 
         </div>
         <div class="border border-dark d-flex  justify-content-center flex-wrap curtain page ">
             <!-- <img src="./images/curtain.png" class="w-100 curtain" alt=""> -->
-            <div class="title text-center">CHAPTER - 1</div>
+            <div class="title text-center border-bottom border-dark">CHAPTER - 1</div>
             <div class="title-name text-center"> ABOUT AUTHOR</div>
         </div>
         <!-- ABOUT ME -->
@@ -77,7 +84,7 @@
             <header class="border-bottom border-dark text-right">2</header>
             <div class="w-100 p-2 m-3 text-info ">
                 <h2><span class="txt-rotate" data-period="1000"
-                        data-rotate='[ "CODER", "WEBDEV", "METALLURGIST" ]'></span></h2>
+                        data-rotate='[ "CODER", "WEBDEVELOPER", "METALLURGIST" ]'></span></h2>
 
             </div>
             <div class="font p-2 m-3">
@@ -89,8 +96,8 @@
                     NIT-B.</p>
             </div>
             <div class="container-fluid border border-dark d-flex flex-wrap w-75 m-auto font p-0">
-                <div class="w-40 pr-3 text-right"><i class="far fa-calendar"></i></div>
-                <div class="w-60">March 21, 2000</div>
+                <!-- <div class="w-40 pr-3 text-right"><i class="far fa-calendar"></i></div>
+                <div class="w-60">March 21, 2000</div> -->
                 <div class="w-40 pr-3 text-right"><i class="fas fa-map-marker-alt"></i></div>
                 <div class="w-60">Idgah hills, Bhopal</div>
                 <div class="w-40 pr-3 text-right"><i class="fas fa-globe"></i></div>
@@ -178,40 +185,39 @@
                 <p>To view my skills, hover upon the button and press the required skill.</p>
 
                 <iframe src="https://giphy.com/embed/UTMWtgccng4QJGknlJ" width="" class="mt-5 hide " height=""
-                    frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    frameBorder="0" class="giphy-embed" id="myP"></iframe>
+                <!-- <img src="./images/star.gif" alt="" class="mt-5 hide h-25 giphy-embed"> -->
             </div>
             <div id="coding" class="">
-                <div class=" w-100 text-center">
-                    <img src="./images/skills/c.png" class="" alt="">
-                </div>
+                <div class=" w-100 text-center"><img src="./images/skills/c.png" class="" alt="c-language"></div>
                 <div class="w-100 d-flex justify-content-around">
-                    <img src="./images/skills/cpp.png" class="" alt="">
-                    <img src="./images/skills/js.png" class="" alt="">
+                    <img src="./images/skills/cpp.png" class="" alt="c++ language">
+                    <img src="./images/skills/js.png" class="" alt="JavaScript">
                 </div>
             </div>
             <div id="frontend" class="p-5">
                 <div class="w-100 text-center">
-                    <img src="./images/skills/html.png" class="" alt="">
+                    <img src="./images/skills/html.png" class="" alt="HTML">
                 </div>
                 <div class="w-100 d-flex justify-content-around">
-                    <img src="./images/skills/css.png" class="" alt="">
-                    <img src="./images/skills/bootstrap.png" class="" alt="">
+                    <img src="./images/skills/css.png" class="" alt="CSS">
+                    <img src="./images/skills/bootstrap.png" class="" alt="Bootstrap">
                 </div>
                 <div class="w-100 text-center">
-                    <img src="./images/skills/react.png" class="" alt="">
+                    <img src="./images/skills/react.png" class="" alt="React-JS">
                 </div>
             </div>
             <div id="backend" class="mt-5">
                 <div class="w-100 text-center">
-                    <img src="./images/skills/node.png" class="w-50" alt="">
+                    <img src="./images/skills/node.png" class="w-50" alt="Node-JS">
                 </div>
             </div>
             <div id="database">
                 <div class="w-100 text-center p-2">
-                    <img src="./images/skills/mongo.png" class="" alt="">
+                    <img src="./images/skills/mongo.png" class="" alt="MongoDB">
                 </div>
                 <div class="w-100 text-center p-2">
-                    <img src="./images/skills/sql.png" class="" alt="">
+                    <img src="./images/skills/sql.png" class="" alt="SQL">
                 </div>
             </div>
         </div>
@@ -285,7 +291,7 @@
                     <li class="mt-3 mb-3"><span class="fa-li"><i class="fas fa-trophy"></i></span>Gold medallist-french
                         olympiad(2016)</li>
 
-                    <li class="mt-3 mb-3"><span class="fa-li"></span><br />...and the list continues</li>
+
                 </ul>
             </div>
         </div>
@@ -374,14 +380,14 @@
                             href="https://www.linkedin.com/in/paras-dandwani-553a81181"><i
                                 class="fab fa-linkedin"></i></a></div>
                     <div class="w-25 float-left border-right border-left border-danger"><a
-                            href="https://wa.me/whatsappphonenumber?text=Hey,%20saw%20your%20e-portfolio,%20wished%20to%20have%20a%20conersation."><i
+                            href="https://wa.me/918718918573?text=Hey,%20saw%20your%20e-portfolio,%20wished%20to%20have%20a%20conersation."><i
                                 class="fab fa-whatsapp"></i></a>
                     </div>
                     <div class="w-25 float-left border-right border-left border-danger"><a
                             href="https://github.com/pdandwani"><i class="fab fa-github"></i></a>
                     </div>
-                    <div class="w-25 float-left border-left border-danger"><a href="mailto:dandwanip@gmail.com"><i
-                                class="far fa-envelope"></i></a></div>
+                    <div class="w-25 float-left border-left border-danger"><a
+                            href="mailto:parasdandwani@altmails.com "><i class="far fa-envelope"></i></a></div>
                 </div>
             </div>
         </div>

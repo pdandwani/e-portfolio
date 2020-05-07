@@ -1,3 +1,4 @@
+// document.getElementById("myP").style.visibility = "hidden";
 let pages = document.getElementsByClassName('page');
 //alert(pages.length);
 var i = pages.length;
@@ -31,7 +32,9 @@ else {
     else {
         pages[pg].classList.remove("d-none");
     }
+
 }
+
 function next() {
     //alert(page);
     let pages = document.getElementsByClassName('page');
@@ -43,6 +46,7 @@ function next() {
         pages[page - 2].classList.add("d-none");
         if (page > 14)
             page = 0;
+
         pages[page].classList.remove("d-none");
         pages[page].classList.add("d-flex");
         page++;
@@ -58,6 +62,7 @@ function next() {
 
         if (page > 15)
             page = 0;
+
         if (page % 2 === 0) {
             pages[page].classList.remove("d-none");
             pages[page].classList.add("d-flex");
@@ -117,6 +122,47 @@ function prev() {
 
     }
 
+}
+function goto(num) {
+    var ar = screen.width / screen.height;
+    if (ar > 1) {
+        page++;
+        pages[page - 1].classList.add("d-none");
+        pages[page - 2].classList.remove("d-flex");
+        pages[page - 2].classList.add("d-none");
+        page = num;
+        next();
+    }
+    else {
+        if (page % 2 === 0)
+            pages[page - 1].classList.add("d-none");
+        else {
+            pages[page - 1].classList.remove("d-flex");
+            pages[page - 1].classList.add("d-none");
+        }
+        page = num + 1;
+        next();
+    }
+}
+function home() {
+    if (ar > 1) {
+        page++;
+        pages[page - 1].classList.add("d-none");
+        pages[page - 2].classList.remove("d-flex");
+        pages[page - 2].classList.add("d-none");
+        page = 14;
+        next();
+    }
+    else {
+        if (page % 2 === 0)
+            pages[page - 1].classList.add("d-none");
+        else {
+            pages[page - 1].classList.remove("d-flex");
+            pages[page - 1].classList.add("d-none");
+        }
+        page = 1;
+        next();
+    }
 }
 //if (ar < 1) {
 //pages[1].remove("page");
