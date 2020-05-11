@@ -12,6 +12,9 @@ ul li a:hover{
     
     text-decoration: none;
 }
+.z{
+    z-index:500;
+}
 .nxtbtn{
     right:0;
     z-index:500;
@@ -124,20 +127,20 @@ header{
     background-repeat: no-repeat;
 }
 .pp{
-    background-image: url("../images/references/pp.jpeg");
+    background-image: url("../images/references/js.jpeg");
 }
 .nr{
-    background-image: url("../images/references/nr.png");
+    background-image: url("../images/references/bnr.jpeg");
 }
 .sr{
     background-image: url("../images/references/sr.jpg");
 }
 .ts{
-    background-image: url("../images/references/ts.jpg");
+    background-image: url("../images/references/ns.jpg");
 }
 .detail{
     width:80%;
-    max-height: 20%;
+    max-height: 30%;
     line-height: normal;
     overflow:hidden;
     overflow:scroll;
@@ -385,15 +388,8 @@ header{
     #base{
         font-size: 1.5em;
     }
-    #coding div img{
-        width:30%;
-         height:70px;
-         
-         
-    }
-    #frontend div img{
-        width:30%;
-        height:70px;
+    #coding img{
+        width:35%;
     }
     #coding{
         margin-top:25%;
@@ -449,6 +445,16 @@ header{
     }
     .f1{
         font-size: 1.8em;
+    }
+    #coding div img{
+        width:30%;
+         height:75px;
+         
+         
+    }
+    #frontend div img{
+        width:30%;
+        height:65px;
     }
 }
 @media (min-aspect-ratio: 9/15) and (max-aspect-ratio: 1/1) and (max-height: 550px){
